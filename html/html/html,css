@@ -1,0 +1,224 @@
+<html>
+    <head>
+    <body>
+        <header>
+            <h2>Pizza</h2>
+            <nav>
+            <a href="#hero">Головна</a>
+            <a href="#about">Про нас</a>
+            <a href="#menu">Меню</a>
+            <a href="#places">Адреса</a>
+            <a href="#footer">Контакти</a>
+            </nav>
+        </header>
+        <main>
+        <section class="hero" id="hero">
+            <div class="hero__row">
+                <h1>Logicko</h1>
+                <p>Знаєш що замовити,натискай на кнопку і ми тобі зателефонуємо.Або переходь до меню.</p>
+                <div class="btns">
+                <a href="">Дзвінок</a>
+                <a href="">Меню</a>
+                </div>
+            </div>    
+        </section>
+        <section class="about" id="about">
+            <div class="bcc"></div>
+            <div class="about__row">
+            <h2>Про нас</h2>
+            <p>Ласкаво просимо до піцерії Logicka! Ми поєднуємо в собі любов до смачної піци та шнноваційного підходу до програмування.Кожен шматочок нашої піци-це смакове втілення кулінарних експериментів тв технологічних ріень.Долучайтесь до нас, щоб насолоджуватися не тільки смачною їжею, але й ділитися знаннями в галузі програмування!</p>
+            </div>
+        </section>
+        <section class="menu" id="menu">
+
+            <article>
+                <img src="https://buddhapizza.od.ua/storage/products/jgaXh2A4jVwLTXkTKBDIgFHZkgm06YF3g3Sva78a.jpeg">
+                <div class="dese">
+                    <p><b>Назва</b></p>
+                    <p>Мислицька</p>
+                    <p><b>Ціна</b></p>
+                    <p>129грн</p>
+                </div>
+            </article>
+             <article>
+                <img src="https://instafood.com.ua/images/shop_product_260/pizza-dari-moria-30cm-601d165526102.png?1612519801">
+                <div class="dese">
+                    <p><b>Назва</b></p>
+                    <p>Пепероні</p>
+                    <p><b>Ціна</b></p>
+                    <p>199грн</p>
+                </div>
+            </article>
+             <article>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5apmNQs_A9XYQG_h25u_PD36MvhWpnuLSOPHSRW-Q3BZR8Hj-MfxahrkFZzbhTytie7g&usqp=CAU">
+                <div class="dese">
+                    <p><b>Назва</b></p>
+                    <p>Фієста</p>
+                    <p><b>Ціна</b></p>
+                    <p>179грн</p>
+                </div>
+            </article>
+        </section>
+        <section id="places" class="places">
+        <h2>Наші ресторани</h2>
+        
+        <p><b>Адреса</b></p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.4772503682275!2d30.521005775782008!3d50.450836987337006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce505415b56b%3A0xb62d6b5591fd019c!2z0JzQsNC50LTQsNC9INCdMjAwMA!5e0!3m2!1suk!2sua!4v1715359449180!5m2!1suk!2sua0LXQt9Cw0LvQtdC20L3QvtGB0YLRliwgMzQsINCa0LjRl9CyLCAw" width="500px" height="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> </iframe>
+        <div class="adress">
+        <p>м. Київ<br>
+       вул. Незалежності 34</p>
+        </div>
+       <div class="adress">
+        <p>м. Харків<br>
+        вул. Сумська 60</p>
+        </div>
+        </section>
+        </main>
+        <footer id="footer">
+        <div>
+        <p><b>Номер телефону </b><br>
+        0962742454
+        </p>
+            <p>м. Київ<br>вул. Незалежності 34</p>
+        <div class="social">
+            <a href="">
+                <img src="">
+            </a>
+            <a href="">
+                <img src="">
+            </a>
+            </div>
+        </div>
+        
+        <!-- iframe -->
+        </footer>
+    </body>
+    </head>
+</html>
+
+html,body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    padding-top: 50px;
+}
+
+a,p{
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    padding: 10px 0;
+    background-color: #f93838;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h2{
+    font-weight: 400;
+    font-size: 32px;
+}
+
+nav {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+section{
+    padding: 20px 40px;
+    width: 100%;
+}
+.hero{
+    margin-bottom:50px;
+}
+.hero a{
+    background-color: #f9f23a;
+    width: 221px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btns{
+    display: flex;
+    gap: 25px;
+}
+h1{
+    font-size: 64px;
+}
+.hero__row{
+    width: 50%;
+}
+.about {
+    text-align: center;
+    height: 700px;
+    position: relative;
+    color: white;
+    padding: 0;
+}
+.bcc{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    filter: brightness(0.3);
+    z-index: -1;
+    background-image: url("https://www.allrecipes.com/thmb/0xH8n2D4cC97t7mcC7eT2SDZ0aE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6776_Pizza-Dough_ddmfs_2x1_1725-fdaa76496da045b3bdaadcec6d4c5398.jpg"); 
+}
+.about__row{
+    padding: 40px 20px;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    margin-bottom: 50px;
+}
+.menu img {
+    width: 35%;
+    height: 100%;
+    border: 5px solid #f93838;
+    border-radius: 10px;
+}
+.menu article{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    gap: 35px;
+}
+
+.places {
+    text-align: center;
+}
+
+.places p{
+    margin: 50px;
+}
+footer{
+    background-color: #3FCD78;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
